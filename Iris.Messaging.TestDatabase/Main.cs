@@ -51,6 +51,7 @@ namespace Iris.Messaging.TestDatabase
                 }
             };
             return new List<Chat>() { chat };
+            // Артем тут 
         }
     }
 }
