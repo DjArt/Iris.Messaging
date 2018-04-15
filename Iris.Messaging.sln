@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iris.Messaging", "Iris.Messaging\Iris.Messaging.csproj", "{2728F7E1-782A-42CA-82DE-B835F1E039D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iris.Messaging.TestDatabase", "Iris.Messaging.TestDatabase\Iris.Messaging.TestDatabase.csproj", "{021B6281-8D2F-4D5F-91E4-0201B1576C81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2728F7E1-782A-42CA-82DE-B835F1E039D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2728F7E1-782A-42CA-82DE-B835F1E039D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2728F7E1-782A-42CA-82DE-B835F1E039D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021B6281-8D2F-4D5F-91E4-0201B1576C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021B6281-8D2F-4D5F-91E4-0201B1576C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021B6281-8D2F-4D5F-91E4-0201B1576C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021B6281-8D2F-4D5F-91E4-0201B1576C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
