@@ -5,6 +5,9 @@ using System.Text;
 
 using Xamarin.Forms;
 
+using Iris.Messaging.App.MDPage;
+using Iris.Messaging.App.MDPage.ContactsMVVM;
+
 namespace Iris.Messaging.App
 {
 	public partial class App : Application
@@ -13,7 +16,7 @@ namespace Iris.Messaging.App
 		{
 			InitializeComponent();
 
-			MainPage = new Iris.Messaging.App.MainPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()

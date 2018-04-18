@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Iris.Messaging.App.MDPage.ContactsMVVM.ContactsPage"
+			 xmlns:local="clr-namespace:Iris.Messaging.App.MDPage.ContactsMVVM.Model"
+			 Title="Contact Information">
+	<StackLayout>
+		<StackLayout x:Name="friendStack">
+			<Label Text="Name"/>
+			<Entry Text="{Binding Name}" FontSize ="Medium"/>
+		</StackLayout>
+		<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+			<Button Text="Add" Command="{Binding ListViewModel.SaveContactCommand}" CommandParameter="{Binding}" />
+			<Button Text="Delete" Command="{Binding ListViewModel.DeleteContactCommand}" CommandParameter="{Binding}" />
+			<!--<Button Text="Back" Command="{Binding Path=ListViewModel.BackCommand}" />-->
+		</StackLayout>
+	</StackLayout>
+</ContentPage>
