@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-using Iris.Messaging.App.MDPage.ContactsMVVM;
+using Iris.Messaging.App.MDPage.ContactsPages;
 
 
 namespace Iris.Messaging.App.MDPage

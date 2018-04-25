@@ -10,7 +10,7 @@ namespace Iris.Messaging.TestDatabase
 {
     public class Main
     {
-        public static List<Chat> Init()
+        public static (List<Contact>, List<Chat>) Init()
         {
             Contact first = new Contact()
             {
@@ -50,7 +50,9 @@ namespace Iris.Messaging.TestDatabase
                     m0, m1, m2
                 }
             };
-            return new List<Chat>() { chat };
+            return (new List<Contact>() { first, second, thirds }, new List<Chat>() { chat });
         }
+
+        public static (List<Contact>, List<Chat>) DataBase = Init();
     }
 }

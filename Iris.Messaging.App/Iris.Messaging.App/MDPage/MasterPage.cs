@@ -5,7 +5,8 @@ using System.Text;
 
 using Xamarin.Forms;
 
-using Iris.Messaging.App.MDPage.ContactsMVVM;
+using Iris.Messaging.App.MDPage.Chats;
+using Iris.Messaging.App.MDPage.ContactsPages;
 
 
 namespace Iris.Messaging.App.MDPage
@@ -22,6 +23,13 @@ namespace Iris.Messaging.App.MDPage
                 Title = "Contacts",
                 IconSource = "Cont.png",
                 PageType = typeof(ContactsListPage)
+            });
+
+            masterPageItems.Add(new MasterPageItemList
+            {
+                Title = "Chats",
+                IconSource = "Cont.png",
+                PageType = typeof(ChatListPage)
             });
 
             ListView = new ListView

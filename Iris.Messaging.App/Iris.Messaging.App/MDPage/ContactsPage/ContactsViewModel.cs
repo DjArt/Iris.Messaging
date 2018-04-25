@@ -7,15 +7,20 @@ using System.ComponentModel;
 using Xamarin.Forms;
 
 using Iris.Messaging.Contacts;
+using Iris.Messaging.TestDatabase;
 
-namespace Iris.Messaging.App.MDPage.ContactsMVVM.Model
+namespace Iris.Messaging.App.MDPage.ContactsPages.Model
 {
 	public class ContactsViewModel : INotifyPropertyChanged
 	{
         public event PropertyChangedEventHandler PropertyChanged;
         ContactsListViewModel ListVM;
 
+
+
+     //   public Contact Contact { get; private set; }
         public Contact Contact { get; private set; }
+
 
         public ContactsViewModel ()
 		{

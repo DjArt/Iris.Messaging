@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Iris.Messaging.App.MDPage.ContactsMVVM.Model;
+using Iris.Messaging.App.MDPage.ContactsPages.Model;
 
-namespace Iris.Messaging.App.MDPage.ContactsMVVM
+namespace Iris.Messaging.App.MDPage.ContactsPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ContactsPage : ContentPage

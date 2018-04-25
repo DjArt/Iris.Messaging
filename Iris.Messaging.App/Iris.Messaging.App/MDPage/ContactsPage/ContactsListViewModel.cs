@@ -9,9 +9,10 @@ using System.Windows.Input;
 using Xamarin.Forms;
 
 using Iris.Messaging.Contacts;
-using Iris.Messaging.App.MDPage.ContactsMVVM;
+using Iris.Messaging.App.MDPage.ContactsPages;
+using Iris.Messaging.TestDatabase;
 
-namespace Iris.Messaging.App.MDPage.ContactsMVVM.Model
+namespace Iris.Messaging.App.MDPage.ContactsPages.Model
 {
     public class ContactsListViewModel : INotifyPropertyChanged
     {

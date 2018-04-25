@@ -8,9 +8,10 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Iris.Messaging.Contacts;
-using Iris.Messaging.App.MDPage.ContactsMVVM.Model;
+using Iris.Messaging.App.MDPage.ContactsPages.Model;
+using  Iris.Messaging.TestDatabase;
 
-namespace Iris.Messaging.App.MDPage.ContactsMVVM
+namespace Iris.Messaging.App.MDPage.ContactsPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ContactsListPage : ContentPage
@@ -18,8 +19,14 @@ namespace Iris.Messaging.App.MDPage.ContactsMVVM
 		public ContactsListPage()
 		{
 			InitializeComponent ();
+
             BindingContext = new ContactsListViewModel() { Navigation = this.Navigation };
             booksList.ItemSelected += OnItemSelected;
+            var data = Main.Init();
+            foreach (Contact a in data.Item1)
+            {
+
+            }
             
         }
 

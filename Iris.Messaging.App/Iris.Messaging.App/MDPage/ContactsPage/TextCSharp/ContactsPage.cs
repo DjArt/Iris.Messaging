@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-using Iris.Messaging.App.MDPage.ContactsMVVM.Model;
+using Iris.Messaging.App.MDPage.ContactsPages.Model;
 using Iris.Messaging.Contacts;
 
 namespace Iris.Messaging.App.MDPage.ContactsMVVMtest

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Iris.Messaging.App.MDPage.ContactsMVVM.Model;
+using Iris.Messaging.App.MDPage.ContactsPages.Model;
 using Xamarin.Forms;
 
 namespace Iris.Messaging.App.MDPage.ContactsMVVMtest

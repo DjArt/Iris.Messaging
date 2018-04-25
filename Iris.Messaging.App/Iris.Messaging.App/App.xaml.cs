@@ -6,7 +6,8 @@ using System.Text;
 using Xamarin.Forms;
 
 using Iris.Messaging.App.MDPage;
-using Iris.Messaging.App.MDPage.ContactsMVVM;
+using Iris.Messaging.App.MDPage.ContactsPages;
+using Iris.Messaging.TestDatabase;
 
 namespace Iris.Messaging.App
 {
@@ -15,7 +16,6 @@ namespace Iris.Messaging.App
 		public App ()
 		{
 			InitializeComponent();
-
 			MainPage = new MainPage();
 		}
 
